@@ -63,7 +63,7 @@ Modules are keeping a set of functions in separates files. We can think of modul
 
 Modules built into Node.js that can be required in our code without installing any external code.
 
-> Ex: fs, http, util, etc.
+> Ex: fs, http, util, assert, etc.
 
 ### Local modules
 
@@ -100,6 +100,3 @@ Behavior Driven Development (BDD) is a branch of Test Driven Development (TDD).
 
 - Uses a more natural language that everyone can understand
 
-## Sales Tax Exercise
-
-- [W1D3 - Objects - Sales Tax](https://web.compass.lighthouselabs.ca/days/w01d3/activities/113)
