@@ -27,6 +27,10 @@
 - Testing if a specific functionality of our app is working as expected
 - Usually testing a method or functions
 
+## End-to-End testing
+
+- test the actions of what typically the user would do
+
 ## Test-driven development (TDD)
 
 Test-driven development (TDD) relies on tests to drive development.
