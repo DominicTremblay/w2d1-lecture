@@ -1,17 +1,30 @@
-// const assert = require('assert').strict;
 const numberOfVowels = require('../nb_vowels');
-const {expect} = require('chai');
+const assert = require('assert').strict;
 
-describe('NbOfVowels', () => {
-  it("should be 3 with the string 'orange'", () => {
-    expect(numberOfVowels('orange')).to.be.equal(3);
+describe('nbOfVowels', function () {
+
+  it('It should be 3 with the string orange', function () {
+    assert.equal(numberOfVowels("orange"), 3);
   });
 
-  it("should be 5 with the string 'lighthouse labs'", () => {
-    expect(numberOfVowels('lighthouse labs')).to.be.equal(5);
+  it('It should be 3 with the string "lighthouse labs"', function () {
+    assert.equal(numberOfVowels("lighthouse labs"), 5);
   });
 
-  it("It should be 5 with the string 'aeiou'", () => {
-    expect(numberOfVowels('aeiou')).to.be.equal(5);
+  it('It should be 5 with the string aeiou', function () {
+
+    assert.equal(numberOfVowels("aeiou"), 5);
   });
+
+  it("Arrays should be equal", function () {
+    assert.deepEqual([1, 2, 3], [1, 2, 3])
+  });
+
 });
+
+
+
+
+
+
+
