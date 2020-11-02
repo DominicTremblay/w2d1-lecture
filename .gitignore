@@ -1,4 +1,6 @@
 node_modules/
 steps.md
-sales_tax*
 plan.md
+sales_tax.js
+sales_tax_test_main.js
+chai_test_examples.js
