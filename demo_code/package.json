@@ -1,0 +1,20 @@
+{
+  "name": "demo_w2d1",
+  "version": "1.0.0",
+  "main": "nb_vowels.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Dominic Tremblay",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {}
+}
