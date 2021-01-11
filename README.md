@@ -6,7 +6,6 @@
 * What is unit testing
 * What is test drivent developement (TDD)
 * Node Assert Module
-* Breakout Exercise (repeatNumbers)
 * What are modules  
 * Mocha
 * Chai
@@ -52,7 +51,7 @@ Let's do TDD with the Node.js assert module:
 
 ## Modules
 
-Modules are keeping a set of functions in separates files. We can think of modules as JavaScript librairies. 
+Modules are keeping a set of functions in separate files. We can think of modules as JavaScript libraries. 
 
 * Keeping modules separate ensures that our code remains well organized and modular
 * These functions can be added to our app reused any number of times
@@ -107,3 +106,4 @@ Behavior Driven Development (BDD) is a branch of Test Driven Development (TDD).
 * [Emoji Cheatsheet](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
 * [Chai Cheatsheet](https://devhints.io/chai)
 * [Testing Arrays and Objects with Chai.js](https://medium.com/building-ibotta/testing-arrays-and-objects-with-chai-js-4b372310fe6d)
+
