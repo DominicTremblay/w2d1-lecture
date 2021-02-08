@@ -1,3 +1,4 @@
+
 // Given two arrays of strings, return the number of times each string
 // of the second array appears in the first array.
 
@@ -9,20 +10,30 @@
 // '🐘🐯🐫' does not appear in the first array (0)
 // Therefore, matchStrings(sourceArr, matchArr) = [2, 1, 0]
 
-const matchStrings = (sourceArr, matchArr) => {};
+const matchStrings = (sourceArr, matchArr) => {
+  
+  // placeholder array
+  const nbTimes = [];
 
-console.assert(
-  matchStrings(['🐟🐠', '🐳 🐋 🐬', '🐙', '🐙'], ['🐟🐠', '🐙']) === [1, 2],
-  "['🐟🐠','🐙'] should appear [1,2] times"
-);
+  // loop through the matchArr
+  for (let matchStr of matchArr) {
+    // set counter to 0
+    let counter = 0;
+    // loop throught the souceArr
+    for (let sourceStr of sourceArr) {
+      // if the str of the match is === to str of the source
+      // increase the counter
+      if (matchStr === sourceStr) {
+        counter += 1;
+      }
+    }
+    // push counter value
+    nbTimes.push(counter);
+  }
 
-// matchStrings(['🐇🐢', '🐭 🐹', '🐇🐢', '🐇🐢', '🐭 🐹'], ['🐭 🐹', '🐇🐢']),
-//   [2, 3],
-//   "['🐭 🐹', '🐇🐢'] should appear [2, 3] times";
+  // return Array;
+  return nbTimes;
+};
 
-// matchStrings(
-//   ['🐵🐼🐨', '🐵🐼🐨', '🐶🐱🐭', '🐴🐑🐮', '🐰🐺🐔'],
-//   ['🐵🐼🐨', '🐴🐑🐮', '🐘🐯🐫']
-// ),
-//   [2, 1, 0],
-//   "['🐵🐼🐨', '🐴🐑🐮', '🐘🐯🐫'] should appear [2,1,0] times";
+module.exports = matchStrings;
+
