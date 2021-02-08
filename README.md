@@ -40,14 +40,9 @@ Test-driven development (TDD) relies on tests to drive development.
 ## Node Assert Module
 
 * [NbVowels Exercise](https://web.compass.lighthouselabs.ca/activities/780)
-
+* [Match Animals Breakout Exercise](https://gist.github.com/DominicTremblay/3f2dac8ab139c5602bb3ed9be6e35183)
 * [Assert NodeJS Examples](https://nelsonic.gitbooks.io/node-js-by-example/content/core/assert/README.html)
 
-### Breakout Exercises
-
-Let's do TDD with the Node.js assert module:
-
-* [RepeatSymbol](https://gist.github.com/DominicTremblay/3f2dac8ab139c5602bb3ed9be6e35183)
 
 ## Modules
 
@@ -106,4 +101,3 @@ Behavior Driven Development (BDD) is a branch of Test Driven Development (TDD).
 * [Emoji Cheatsheet](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
 * [Chai Cheatsheet](https://devhints.io/chai)
 * [Testing Arrays and Objects with Chai.js](https://medium.com/building-ibotta/testing-arrays-and-objects-with-chai-js-4b372310fe6d)
-

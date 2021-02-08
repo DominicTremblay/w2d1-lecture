@@ -1,10 +1,8 @@
+const numberOfVowels = (str) => {
 
-const numberOfVowels = function (str) {
-
+  
 };
 
 // tomato🍅
 // watermelon🍉
 //sweet potato🍠
-
-
